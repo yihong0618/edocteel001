@@ -1,2 +1,2 @@
 # edocteel001
-100days leetcode
+100 Days Leetcode
