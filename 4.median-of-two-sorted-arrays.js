@@ -25,7 +25,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
         if (nums2.length === 0) {
             target = nums1
         }
-        store.push(target.shift() || 0);
+        store.push(target.shift());
         i++;
     }
     median = !isTwo ? (store.pop() + store.pop()) / 2 : store.pop()
