@@ -43,12 +43,3 @@ var uniquePathsWithObstacles = function (obstacleGrid) {
     return arr[m - 1][n - 1]
 };
 // @lc code=end
-console.log(uniquePathsWithObstacles([
-    [0,0,1,0,0,1],
-    [0,0,0,0,1,1],
-    [0,1,0,0,0,0],
-    [0,0,0,0,0,0],
-    [1,0,0,0,0,0],
-    [0,1,0,0,0,0],
-    [0,1,0,0,0,0],
-  ]))
