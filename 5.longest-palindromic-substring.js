@@ -9,29 +9,29 @@
  * @param {string} s
  * @return {string}
  */
-var longestPalindrome = function (s) {
-    if (s.length===0) {
-        return s
-    }
+const longestPalindrome = function (s) {
+  if (s.length === 0) {
+    return s;
+  }
 
-    let isPalindrome = (s) => {
-        let len = s.length;
+  const isPalindrome = (s) => {
+    const len = s.length;
 
-        for (let i = 0; i < len / 2; i++) {
-            if (s[i] !== s[len - 1 - i]) {
-                return false;
-            }
-        }
-        return true;
+    for (let i = 0; i < len / 2; i++) {
+      if (s[i] !== s[len - 1 - i]) {
+        return false;
+      }
     }
-    let s_length = s.length
-    for(let i=s_length; i>1; i--) {
-        for (let j=0; j+i<=s_length; j=j+1) {
-            if(isPalindrome(s.slice(j,j+i))) {
-                return s.slice(j,j+i);
-            }
-        }
+    return true;
+  };
+  const s_length = s.length;
+  for (let i = s_length; i > 1; i--) {
+    for (let j = 0; j + i <= s_length; j += 1) {
+      if (isPalindrome(s.slice(j, j + i))) {
+        return s.slice(j, j + i);
+      }
     }
-    return s[0]
+  }
+  return s[0];
 };
 // @lc code=end
