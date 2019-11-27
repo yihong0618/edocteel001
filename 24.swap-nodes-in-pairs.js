@@ -16,22 +16,34 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var swapPairs = function(head) {
+const swapPairs = function (head) {
   if (head === null || head.next === null) {
-      return head;
+    return head;
   }
-  g = p = new ListNode(0);
-  g.next = head;
-
-  while (head !== null && head.next !== null) {
-    let temp = head.next;
-    head.next = temp.next;
-    temp.next = head;
-    p.next = temp;
-    p = head;
-    head = head.next;
-  }
-  return g.next
+  const p = head;
+  const temp = head.next;
+  head.next = temp.next;
+  temp.next = p;
+  p.next = swapPairs(head.next);
+  return temp;
 };
 // @lc code=end
 
+// normal
+// const swapPairs = function (head) {
+//   if (head === null || head.next === null) {
+//     return head;
+//   }
+//   const start = new ListNode(0);
+//   let p = start;
+//   start.next = head;
+//   while (head !== null && head.next !== null) {
+//     const temp = head.next;
+//     head.next = temp.next;
+//     temp.next = head;
+//     p.next = temp;
+//     p = head;
+//     head = head.next;
+//   }
+//   return start.next;
+// };
