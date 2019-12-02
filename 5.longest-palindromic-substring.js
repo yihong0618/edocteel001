@@ -14,7 +14,7 @@ const longestPalindrome = function (s) {
     return s;
   }
 
-  const isPalindrome = (s) => {
+  const isPalindrome = s => {
     const len = s.length;
 
     for (let i = 0; i < len / 2; i++) {

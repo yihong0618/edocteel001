@@ -34,19 +34,19 @@ const getIntersectionNode = function (headA, headB) {
     lenB += 1;
     headB = headB.next;
   }
-  
+
   while (lenA > lenB) {
     a = a.next;
     lenA -= 1;
   }
   while (lenA < lenB) {
-      b = b.next;
-      lenA += 1
+    b = b.next;
+    lenA += 1;
   }
-  while( a !== b ) {
-      a = a.next;
-      b = b.next;
+  while (a !== b) {
+    a = a.next;
+    b = b.next;
   }
-  return a
+  return a;
 };
 // @lc code=end
