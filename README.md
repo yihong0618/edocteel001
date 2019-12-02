@@ -61,3 +61,5 @@ let arr = new Array(m).fill(Array(n).fill(1))
 2. 第90题：终于弄明白了js在嵌套数组中和python不一样的地方。Array.from(new Set(result.map(JSON.stringify)), JSON.parse)，这个题看看答案有啥更精妙的解法没。
 ### day18--31
 1. 这个题抄答案了，反正我觉得真的是不简单，哈哈，明天再来试试吧
+### day19--930
+1. 第930题：这题解的真是闹心。明天再看吧
