@@ -55,9 +55,14 @@ let arr = new Array(m).fill(Array(n).fill(1))
 ### day16--392, 24, 203
 1. 第24题：把昨天的题重新做了一遍，还是需要找时间再来一遍
 2. 第392题：独立完成了成绩还不错，开始没考虑到切片的边界条件，之后要注意这点
+<<<<<<< Updated upstream
 3. 第203题：一道链表简单题，倒是挺容易的解决了
 ### day17--66,90
 1. 第66题：这个题本身很简单，但我之前没考虑到js会遇到大正数的问题，以后多留意。这个题用递归也做了遍，递归好蠢啊
 2. 第90题：终于弄明白了js在嵌套数组中和python不一样的地方。Array.from(new Set(result.map(JSON.stringify)), JSON.parse)，这个题看看答案有啥更精妙的解法没。
 ### day18--31
 1. 这个题抄答案了，反正我觉得真的是不简单，哈哈，明天再来试试吧
+=======
+### day17--90
+1. 第90题：终于弄明白了js在嵌套数组中和python不一样的地方。Array.from(new Set(result.map(JSON.stringify)), JSON.parse)，这个题看看答案有啥更精妙的解法没。
+>>>>>>> Stashed changes
