@@ -22,7 +22,6 @@ const lengthOfLIS = function (nums) {
       }
     }
   }
-  console.log(dp);
   return Math.max(...dp);
 };
 // @lc code=end
