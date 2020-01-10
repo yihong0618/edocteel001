@@ -112,3 +112,5 @@ let arr = new Array(m).fill(Array(n).fill(1))
 1. 第860题：这个题想到了巧妙的解法哈哈，但是为了练习queue和switch case没用。
 ### day43--207
 1. 第207题：第一道图的题，这题很喜欢，学到了一些东西
+### day44--344
+1. 第344题：这道题挺简单，但是我决定先把top interview 100先刷完了。
