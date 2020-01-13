@@ -114,3 +114,5 @@ let arr = new Array(m).fill(Array(n).fill(1))
 1. 第207题：第一道图的题，这题很喜欢，学到了一些东西
 ### day44--344
 1. 第344题：这道题挺简单，但是我决定先把top interview 100先刷完了。
+### day45--387
+1. 第345题：哎，又被JS坑了，这次是map，还多少了解了点儿forEach
