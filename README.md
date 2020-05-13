@@ -123,3 +123,5 @@ let arr = new Array(m).fill(Array(n).fill(1))
 1. 第242题: 挺简单的，其实可以用字典的
 ### day48--208
 1. try 前缀树
+### day49--559
+1. 变笨了，好久没练了
