@@ -125,3 +125,5 @@ let arr = new Array(m).fill(Array(n).fill(1))
 1. try 前缀树
 ### day49--559
 1. 变笨了，好久没练了
+### day50--121
+1. 啊。。。好菜啊现在，参考答案做出来了。
