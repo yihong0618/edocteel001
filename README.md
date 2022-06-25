@@ -129,5 +129,26 @@ let arr = new Array(m).fill(Array(n).fill(1))
 1. 啊。。。好菜啊现在，参考答案做出来了。
 ### day51---50
 1. 今天休年假，看了一道题，自己还是有点菜的。。。上一次刷题还是 3 年前。。。
-### day40--643修
-### day40--643
+### day52--665
+1. 试了一下每日一题，今天这个题挺有意思。算是贪心算法吧。开始没想明白。
+```python
+class Solution(object):
+    def checkPossibility(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        c = 0
+        for i in range(1, len(nums)):
+            if nums[i] < nums[i-1]:
+                c += 1
+                if c > 1:
+                    return False
+                if i>=2:
+                    if nums[i] < nums[i-2]:
+                        nums[i] = nums[i-1]
+                    else:
+                        nums[i-1] = nums[i]
+                        
+        return True
+```
