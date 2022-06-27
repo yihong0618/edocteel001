@@ -154,3 +154,6 @@ class Solution(object):
 ```
 ### day53--1423 
 1. 滑动窗口。
+### day54--1689
+1. 凭感觉一次过了。。。return max(n)
+
