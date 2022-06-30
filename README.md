@@ -158,4 +158,17 @@ class Solution(object):
 1. 凭感觉一次过了。。。return max(n)
 ### day55-1647
 1. 每日一题，没做出来，一看答案，完全可以想到的哎。。。
+### day56--462
+应该是中位数的一个应用而不是平均数
+```python
+class Solution(object):
+    def minMoves2(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        m = sorted(nums)[len(nums)//2]
+        
+        return sum(abs(m-i) for  i in nums)
+```
 
