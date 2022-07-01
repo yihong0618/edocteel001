@@ -171,4 +171,5 @@ class Solution(object):
         
         return sum(abs(m-i) for  i in nums)
 ```
-
+### day54--1710
+1. 今天的每日一题是 easy 难度，一下子做出来了，顺便测试了下我拿到测试的方法
