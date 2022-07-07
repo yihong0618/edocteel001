@@ -179,3 +179,7 @@ class Solution(object):
 1. 独立做出来了。做的挺蠢的，也花了好久。
 ### day57--509
 1. fib!!! 记得用 lrc_cache
+### day58--376, 97
+1. dp
+2. dp
+要好好学习下 dp
